@@ -18,7 +18,7 @@ pipeline {
 
   }
   environment {
-    ECR_ID = '142198642907.dkr.ecr.us-west-2.amazonaws.com/kathireshv2-casestudy-calculation-service'
+    ECR_ID = '142198642907.dkr.ecr.us-west-2.amazonaws.com'
     CALCULATION_SERVICE_IMAGE = 'kathireshv2-casestudy-calculation-service'
     ECR_CREDENTIALS = credentials('ecr-credentials')
   }
