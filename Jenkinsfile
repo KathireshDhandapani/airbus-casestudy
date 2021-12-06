@@ -87,9 +87,9 @@ pipeline {
     ECR_ID = '142198642907.dkr.ecr.us-west-2.amazonaws.com'
     CALCULATION_SERVICE_IMAGE = 'kathireshv2-casestudy-calculation-service'
     ECR_CREDENTIALS = credentials('ecr-credentials')
-    VALIDATION_RESPONSE_DAEMON_IMAGE = 'kathireshv2-casestudy-creditcard-identity-verification-response-daemon'
-    EMAIL_SERVICE_IMAGE = 'kathireshv2-casestudy-email-service'
-    CREDITCARD_SERVICE_IMAGE = 'kathireshv2-casestudy-creditcard-service'
-    IDENTITY_VERIFICATION_SERVICE_IMAGE = 'kathireshv2-casestudy-identity-verification-service'
+    VALIDATION_RESPONSE_DAEMON_IMAGE = 'kathireshv2-creditcard-identity-verification-response-daemon'
+    EMAIL_SERVICE_IMAGE = 'kathireshv2-email-service'
+    CREDITCARD_SERVICE_IMAGE = 'kathireshv2-creditcard-service'
+    IDENTITY_VERIFICATION_SERVICE_IMAGE = 'kathireshv2-identity-verification-service'
   }
 }
